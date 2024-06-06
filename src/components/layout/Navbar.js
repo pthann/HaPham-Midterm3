@@ -1,11 +1,9 @@
-// Navbar.js
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { ThemeContext } from '../../ThemeContext';
 
 const Navbar = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
-
   return (
     <nav className={`navbar ${theme}-theme`}>
       <h1>
