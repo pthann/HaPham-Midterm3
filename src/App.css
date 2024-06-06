@@ -48,7 +48,6 @@ img {
   padding: 0 2rem;
 }
 
-/* Text Styles*/
 .x-large {
   font-size: 4rem;
   line-height: 1.2;
@@ -98,7 +97,7 @@ img {
   text-align: left;
 }
 
-/* Center All */
+
 .all-center {
   display: flex;
   flex-direction: column;
